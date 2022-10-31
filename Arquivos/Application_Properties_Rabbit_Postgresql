@@ -1,0 +1,14 @@
+spring.datasource.url=jdbc:postgresql://localhost:5432/labmtecdb
+spring.datasource.username=postgres
+spring.datasource.password=lab2022
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQL81Dialect
+
+spring.rabbitmq.host=172.17.0.2
+spring.rabbitmq.port=5672
+spring.rabbitmq.username=guest
+spring.rabbitmq.password=guest
+queue.name=QueueKeyRequests
